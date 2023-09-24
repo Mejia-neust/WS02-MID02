@@ -1,0 +1,131 @@
+html, body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode';
+    font-size: 90%;
+    background: rgb(255,240,170);
+    background: linear-gradient(119deg, rgba(255,240,170,1) 13%, rgba(255,240,170,1) 28%, rgba(255,252,195,1) 36%, rgba(255,240,170,1) 57%, rgba(255,240,170,1) 68%, rgba(255,240,170,1) 87%, rgba(255,240,170,1) 90%);
+}
+li {
+    list-style-image: url("img/i2.png");
+    line-height: 1.6em;
+    margin: 3px;
+}
+
+h1{
+    text-align: center;
+}
+
+p{  text-align: center;}
+
+ul li {
+    margin-left: 31%;
+
+}
+
+table {
+    border-spacing: 0px;
+    margin-left: 30%;
+    
+    
+}
+
+th, td {
+    padding: 5px 30px 5px 10px;
+    border-spacing: 0px;
+    font-size: 90%;
+    margin: 0px;
+}
+        
+th, td {
+    text-align: left;
+    background-color: #f0ece0;
+    border-top: 1px solid #f0ece0;
+    border-bottom: 1px solid #ffd739;
+    border-right: 1px solid #ffd739;
+}
+
+tr.head th {
+    color: #fff;
+    background-color: #ffc106;
+    border-bottom: 2px solid #ad9651;
+    border-right: 1px solid #fff2c9;
+    border-top: 1px solid #ffedb8;
+    text-align: center;
+    text-shadow: -1px -1px 1px #666666;
+    letter-spacing: 0.15em;
+}
+td {
+    text-shadow: 1px 1px 1px #ffffff;
+}
+
+tr.even td, tr.even th {
+    background-color: #e8eff5;
+}
+
+tr.head th:first-child {
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    border-top-left-radius: 5px;
+}
+
+tr.head th:last-child {
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-right-radius: 5px;
+}
+
+fieldset {
+    width: 310px;
+    margin-top: 20px;
+    border: 1px solid whitesmoke;
+    background-color: #f5f1ca;
+    line-height: 1.6em;
+    margin-left: 30%;
+}
+
+legend {
+    font-style: italic;
+    color: #666666;
+    
+}
+
+input[type="text"] {
+    width: 120px;
+    border: 1px solid #d6d6d6;
+    padding: 2px;
+    outline: none;
+    
+}
+
+input[type="text"]:focus,
+input[type="text"]:hover {
+    background-color: #95c8f0;
+    border: 1px solid #1174c1;
+}
+
+input[type="submit"] {
+    border: 1px solid #ad9651;
+    background-color:  #ffca2b;
+    color: #ff1919;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    border: 1px solid #6dcc9c;
+    background-color: #3000cc;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+.title {
+    float: left;
+    width: 160px;
+    clear: left;
+}
+.submit {
+    width: 310px;
+    text-align: right;
+    margin-left: 30%;
+}
