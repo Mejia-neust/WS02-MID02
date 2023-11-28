@@ -2,7 +2,8 @@ html, body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode';
     font-size: 90%;
     background: rgb(255,240,170);
-    background: linear-gradient(119deg, rgba(255,240,170,1) 13%, rgba(255,240,170,1) 28%, rgba(255,252,195,1) 36%, rgba(255,240,170,1) 57%, rgba(255,240,170,1) 68%, rgba(255,240,170,1) 87%, rgba(255,240,170,1) 90%);
+    background: linear-gradient rgba(255,240,170,1) 
+
 }
 li {
     list-style-image: url("img/i2.png");
@@ -45,7 +46,7 @@ th, td {
 
 tr.head th {
     color: #fff;
-    background-color: #ffc106;
+    background-color: #dfb021;
     border-bottom: 2px solid #ad9651;
     border-right: 1px solid #fff2c9;
     border-top: 1px solid #ffedb8;
@@ -104,17 +105,17 @@ input[type="text"]:hover {
 
 input[type="submit"] {
     border: 1px solid #ad9651;
-    background-color:  #ffca2b;
-    color: #ff1919;
+    background-color:  #2bd1ff;
+    color: #310606;
     border-radius: 5px;
     padding: 5px;
     margin-top: 10px;
 }
 
 input[type="submit"]:hover {
-    border: 1px solid #6dcc9c;
-    background-color: #3000cc;
-    color: #ffffff;
+    border: 1px solid #2bbfe4;
+    background-color: #0095ff;
+    color: #16d6eb;
     cursor: pointer;
 }
 
